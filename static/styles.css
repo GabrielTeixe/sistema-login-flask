@@ -1,0 +1,111 @@
+/* ====== RESET ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+/* ====== BODY ====== */
+body {
+    background: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    color: #333;
+}
+
+/* ====== CONTAINER ====== */
+.container {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 25px rgba(0,0,0,0.08);
+}
+
+/* ====== TITULOS ====== */
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    color: #222;
+    font-weight: 600;
+}
+
+/* ====== INPUTS ====== */
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #3b7cff;
+    box-shadow: 0px 0px 4px rgba(59,124,255,0.5);
+    outline: none;
+}
+
+/* ====== BOTÕES ====== */
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #3b7cff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #275fe3;
+}
+
+/* ====== LINKS ====== */
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #3b7cff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ====== DASHBOARD ====== */
+.dashboard-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    max-width: 600px;
+}
+
+.logout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #ff4242;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.logout-btn:hover {
+    background: #d83434;
+}

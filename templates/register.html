@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Criar Conta</h2>
+
+<form method="POST">
+    <input type="email" name="email" placeholder="Seu e-mail" required>
+    <input type="password" name="senha" placeholder="Sua senha" required>
+
+    <button type="submit">Registrar</button>
+</form>
+
+<div class="links">
+    <a href="{{ url_for('login') }}">Já tenho conta</a>
+</div>
+
+{% endblock %}
